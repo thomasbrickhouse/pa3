@@ -1,0 +1,99 @@
+input {
+  border-radius: 0.375rem;
+  border-color: rgba(0, 0, 0, 0.656);
+  border-style: solid;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 0.75rem;
+  text-align: center;
+  padding-right: 0.75rem;
+  height: 3rem;
+  width: 20.25rem;
+  font-size: 1.25rem;
+  border-radius: 0.375rem;
+}
+
+input:focus {
+  outline: none !important;
+}
+
+.centerBlock {
+  margin: auto;
+  width: 50%;
+  padding-top: 3.125rem;
+  border-radius: 0.375rem;
+  height: 27.2rem;
+  width: 31.25rem;
+  /* background-color: white; */
+}
+
+body {
+  background-color: #1976d2ed;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8%;
+  padding: 0;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+}
+
+.lowermiddle {
+  display: flex;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-grow: 3;
+  margin-top: 1%;
+}
+
+button {
+  background: transparent;
+  border: none;
+}
+
+.citiesButton,
+.countryButton {
+  background-color: white;
+  border-radius: 6px;
+  color: rgba(0, 0, 0, 0.743);
+  cursor: pointer;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 1rem 1.25rem;
+}
+
+.citiesButton:hover,
+.countryButton:hover {
+  background-color: rgba(55, 55, 55, 0.187);
+  color: white;
+}
+
+#cityOptions {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 575px) {
+  body {
+    background-color: #1976d2ed;
+  }
+
+  .centerBlock {
+    margin: auto;
+    width: 100%;
+    padding-top: 3.125rem;
+    border-radius: 0.375rem;
+    height: 27.2rem;
+    background-color:transparent;
+  }
+
+  .citiesButton:hover,
+  .countryButton:hover {
+    background-color: white;
+    border: 2px solid #1976d2ed;
+    color: #1976d2ed;
+
+  }
+}
